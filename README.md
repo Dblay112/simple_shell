@@ -2,7 +2,7 @@
 
 # **Simple shell**
 ## **_Description_**
-The project aim of the project is to implement the shell using the basic C language. A shell is a UNIX termial for the interactive user interface with an operating system. The shell is the layer of programming that understannds and execute the commands a user enter such as ```**cd**```, ```**ls**```, and ```**mkdir**```. In the nutshell, the shell supports execve(), piping, path and I/O redirection.
+The project aim of the project is to implement the shell using the basic C language. A shell is a UNIX termial for the interactive user interface with an operating system. The shell is the layer of programming that understannds and execute the commands a user enter such as ```cd```, ```ls```, and ```mkdir```. In the nutshell, the shell supports execve(), piping, path and I/O redirection.
 ___
 
 ## **_Function or System Call_**
