@@ -1,6 +1,6 @@
 #include "shellheader.h"
 /**
- * e_construct - we needed to print the error like a real print errorer
+ * e_construct - function to print the error
  * @info: pointer to a structure of type info_t
  * @message: pointer to a constant char containing the err message
  * Return: nothing or void
