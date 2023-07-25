@@ -117,9 +117,9 @@ off_t flush_file(int descriptor, off_t offset, int whence)
 }
 
 /**
- * mimic_flush - what can i say this here ezra did a flush style mimicer of fflush
- * @stream: the file itself could be stdin or stdout aman said
- * Return: 1 on success (for stdout), 0 on failure on other streams).
+ * mimic_flush - mimic the behaviour of the flush function
+ * @stream: STDOUT STDIN check
+ * Return: 1 when successful for STDIN and 0 for fail
  */
 
 int mimic_flush(FILE *stream)
