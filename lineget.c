@@ -3,7 +3,7 @@
 /**
  * reset_structure - resets value of the arg in the func
  * @reader: pointer to the struct
- * @descriptor: handles a file opening or not
+ * @explainer: handles a file opening or not
  * Return: nothing
  */
 
@@ -31,7 +31,7 @@ void reset_structure(bline *reader, int explainer)
 
 /**
  * filereader - function to read from a file descriptor
- * @descriptor: file descriptor from which data will be read
+ * @explainer: file descriptor from which data will be read
  * @reader: pointer to the struct
  * Return: the data that has been read
  */
@@ -110,7 +110,7 @@ int fileplacereader(bline *reader, ssize_t *line_length, char **line)
  * bufferfile_handler - read and store in line pointer
  * @lineptr: pointer to store the data
  * @n: pointer to the variable used to store the data
- * @descriptor: file descriptor of the file that will be read
+ * @explainer: file descriptor of the file that will be read
  * Return: the length of the line
  */
 
