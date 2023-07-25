@@ -78,8 +78,8 @@ typedef struct infohandler
 } info_t;
 
 /**
- * struct table - name of structure
- * @types: pointer to the types in struct
+ * struct board - name of structure
+ * @type: pointer to the types in struct
  * @func: pointer to the func in the struct
  */
 
