@@ -2,7 +2,7 @@
 
 /**
  * loopshellmain - function that applies the concept of basic shell loop
- * @descriptor: handles a file openings or not
+ * @explainer: handles a file openings or not
  * @argc: handles argument count
  * @argv: argument vectorss
  * @line: line to be read in the shell
