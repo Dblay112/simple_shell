@@ -1,7 +1,5 @@
 #ifndef _SHELL_H_
 #define _SHELL_H_
-#define _POSIX_SOURCE
-#define _POSIX_C_SOURCE
 #define _GNU_SOURCE
 
 
